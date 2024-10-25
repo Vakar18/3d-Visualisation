@@ -1,0 +1,56 @@
+.parser-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .parser-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2a2a72;
+    background: linear-gradient(45deg, #2a2a72, #009ffd);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 1.5rem;
+  }
+  
+  .upload-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #009ffd;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .upload-button:hover {
+    background-color: #2a2a72;
+  }
+  
+  #file-upload {
+    display: none; /* Hide the original file input */
+  }
+  
+  .heading {
+    background: linear-gradient(90deg, #4b6cb7, #182848); /* Blue gradient */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .heading-1 {
+    background: linear-gradient(90deg, #bababe, #444546); /* Blue gradient */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
